@@ -1,5 +1,10 @@
 <?php 
 
+$students = ["Blini", "Erjoni" , "Aniki", "Edeni" , "Shpati" , "Nili"];
+
+$string = "String";
+
+
 $grade = 94;
 
 if ($grade >= 90 && $grade <= 100){
@@ -47,6 +52,19 @@ switch($dita){
             break;
     default:
         echo"invalid";
+}
+
+for($x = 50; $x < 100; $x = $x + 2){
+    echo $x."<br>";
+}
+echo "<br>";
+foreach($students as $student){
+    echo($student."<br>");
+}
+
+while (strlen($string) < 10){
+    echo ($string);
+    $string = $string . "g";
 }
 
 
