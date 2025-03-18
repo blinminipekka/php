@@ -59,6 +59,5 @@
             </tbody>
         </table>
         <a href="index.php">Add User</a>
-
 </body>
 </html>

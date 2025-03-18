@@ -1,8 +1,7 @@
 <?php
-
 $host = 'localhost';
 $user = 'root';
-$password = ''; 
+$password = '';
 $dbname = 'moduli11';
 
 try {
@@ -12,5 +11,5 @@ try {
 } catch (Exception $e) {
     echo "Connection failed: " . $e->getMessage();
 }
-
+                                                 
 ?>
