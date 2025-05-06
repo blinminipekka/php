@@ -67,6 +67,7 @@ $users_data = $selectUsers->fetchAll();
             <a class="nav-link" href="list_movies.php">
               <span data-feather="file"></span>
               Movies
+
             </a>
           </li>
           <li class="nav-item">
@@ -84,9 +85,10 @@ $users_data = $selectUsers->fetchAll();
         <h1 class="h2">Dashboard</h1>
       </div>
 
-      <h2>Users</h2>
+      <h2>Movies</h2>
       <div class="table-responsive">
         <table class="table table-striped table-sm">
+        <h2><a href="movies.php" class="btn btn-primary">Add Movie</a></h2>
           <thead>
             <tr>
               <th scope="col">Id</th>
