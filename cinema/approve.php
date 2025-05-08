@@ -1,0 +1,12 @@
+<?php
+include_once('config.php');
+
+$id=$_GET['id'];
+$sql = "UPDATE `bookings` SET `is_approved` = true WHERE id = :id";
+$prep = $db->prepare($sql);
+$prep->bindParam(':id', $id);
+$prep->execute();
+
+header('Location: list_movies.php');
+
+?>
